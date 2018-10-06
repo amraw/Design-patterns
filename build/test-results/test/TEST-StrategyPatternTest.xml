@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StrategyPatternTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-10-06T02:34:55" hostname="amit-VirtualBox" time="0.078">
+  <properties/>
+  <testcase name="divideTest" classname="StrategyPatternTest" time="0.035"/>
+  <testcase name="addTest" classname="StrategyPatternTest" time="0.001"/>
+  <testcase name="multiplyTest" classname="StrategyPatternTest" time="0.015"/>
+  <testcase name="divideByzero" classname="StrategyPatternTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

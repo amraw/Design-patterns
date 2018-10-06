@@ -1,0 +1,27 @@
+group = "designPattern"
+version = "'1.0-SNAPSHOT'"
+
+apply plugin: 'java'
+
+repositories{
+    jcenter()
+    mavenCentral()
+}
+
+dependencies{
+    testImplementation 'junit:junit:4.12'
+}
+
+sourceSets {
+    main{
+        java{
+            srcDirs =["src"]
+        }
+    }
+    test{
+        java{
+            srcDirs =["test"]
+        }
+
+    }
+}
