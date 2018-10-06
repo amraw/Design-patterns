@@ -20,7 +20,7 @@ public class StrategyPatternTest {
     @Test
     public void divideTest(){
         StrategyPattern divide = new StrategyPattern(new DivisionOperation());
-        assertEquals(3, divide.executeStrategy(6,3));
+        assertEquals(3, divide.executeStrategy(6,2));
     }
     @Test(expected = ArithmeticException.class)
     public void divideByzero(){
